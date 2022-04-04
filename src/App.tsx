@@ -6,8 +6,9 @@ import {UI} from './InfoRequest'
 
 
 
-function App() {
-    (
+
+function App(){
+    return(
     <div className="App">
       <UI/>
     </div>
