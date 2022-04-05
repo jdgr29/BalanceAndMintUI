@@ -4,11 +4,12 @@ import { useEffect, useState } from "react";
 
 
 
+
   
 
 
 function MintAndBalance () {
-  const [Account, SetAccount] = useState([])
+  const [Account, SetAccount] = useState<any>([])
   const MY_WALLET_ADDRESS = "55DwoQzQSVvkXdGwKqz7yfwqLxf81rm4GTrUau8EVU9K";
   
   useEffect(() => {
