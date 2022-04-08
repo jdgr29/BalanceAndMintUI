@@ -17,7 +17,7 @@ function MintAndBalance () {
 
    async function Data() {
      
-   
+   //TODO get the wallet key dynamically
     const accounts:{[index: string]:any} = await connection.getParsedProgramAccounts(
       
       TOKEN_PROGRAM_ID, // new PublicKey("TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA")

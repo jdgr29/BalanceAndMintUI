@@ -7,9 +7,6 @@ import { createRoot } from 'react-dom/client';
 const rootElement = document.getElementById('root')!;
 const root = createRoot(rootElement);
   
-  
-
-
 root.render(
   <StrictMode>
 <App/>
@@ -20,3 +17,5 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
